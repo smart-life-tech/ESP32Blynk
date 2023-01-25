@@ -23,9 +23,9 @@ void BlynkWidgetWrite1 (BlynkReq __attribute__((__unused__)) &request, const Bly
   int G = param[1].asInt();
   int B = param[2].asInt();
 
-  // Serial.println(R);
-  // Serial.println(G);
-  // Serial.println(B);
+   Serial.println(R);
+   Serial.println(G);
+   Serial.println(B);
 
   for (int i = 0; i < 8 /* Change the pixel number according to your project*/; i++)
   {

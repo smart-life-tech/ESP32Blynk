@@ -3,7 +3,7 @@
 
 /* Comment this out to disable prints and save space */
 #define BLYNK_PRINT Serial
-#define BLYNK_TEMPLATE_ID "TMPLeif3dni5"
+#define BLYNK_TEMPLATE_ID "TMPLTZwpzG5t"
 #define BLYNK_DEVICE_NAME "mpuLeds"
 #define BLYNK_FIRMWARE_VERSION "0.1.0"
 #define APP_DEBUG
@@ -33,9 +33,9 @@ BLYNK_WRITE(V1)
   int G = param[1].asInt();
   int B = param[2].asInt();
 
-  // Serial.println(R);
-  // Serial.println(G);
-  // Serial.println(B);
+   Serial.println(R);
+   Serial.println(G);
+   Serial.println(B);
 
   for (int i = 0; i < NUMPIXELS; i++)
   {
