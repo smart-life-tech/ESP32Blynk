@@ -18,6 +18,15 @@
 #define NUMPIXELS 8 // Change the pixel number according to your project
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
+#line 19 "c:\\Users\\USER\\Documents\\Arduino\\mpuLedLight\\ESP32Blynk\\ESP32Blynk.ino"
+void BlynkWidgetWrite1(BlynkReq __attribute__((__unused__)) &request, const BlynkParam __attribute__((__unused__)) &param);
+#line 37 "c:\\Users\\USER\\Documents\\Arduino\\mpuLedLight\\ESP32Blynk\\ESP32Blynk.ino"
+void BlynkWidgetWrite2(BlynkReq __attribute__((__unused__)) &request, const BlynkParam __attribute__((__unused__)) &param);
+#line 47 "c:\\Users\\USER\\Documents\\Arduino\\mpuLedLight\\ESP32Blynk\\ESP32Blynk.ino"
+void setup();
+#line 55 "c:\\Users\\USER\\Documents\\Arduino\\mpuLedLight\\ESP32Blynk\\ESP32Blynk.ino"
+void loop();
+#line 19 "c:\\Users\\USER\\Documents\\Arduino\\mpuLedLight\\ESP32Blynk\\ESP32Blynk.ino"
 BLYNK_WRITE(V1)
 {
   int R = param[0].asInt();
